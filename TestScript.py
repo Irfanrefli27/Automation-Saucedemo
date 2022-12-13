@@ -16,6 +16,8 @@ def main():
     driver.get("https://www.saucedemo.com/ ")
     time.sleep(10)
     Saucedemo.actionLogin(driver)
+    Saucedemo.actionAddCart(driver)
+    Saucedemo.actionCheckout(driver)
     Saucedemo.actionLogout(driver)
     Saucedemo.actionLoginLockedOut(driver)
 
